@@ -1,6 +1,8 @@
 URL for your GitHub repository: https://github.com/ColinR135/graph_colinr135.git
 
 This package contains the Dijkstra shortest path algorithm.
+    The algorithm can be used with the function
+    dijkstra(graph, source) # this returns the total distance and path taken
 
 There is also another heap project added to support the use of the algorithm 
     heap = []            # creates an empty heap

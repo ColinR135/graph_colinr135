@@ -1,3 +1,18 @@
+This package contains the Dijkstra shortest path algorithm.
+    The algorithm can be used with the function
+    dijkstra(graph, source) # this returns the total distance and path taken
+
+There is also another heap project added to support the use of the algorithm 
+    heap = []            # creates an empty heap
+    heappush(heap, item) # pushes a new item on the heap
+    item = heappop(heap) # pops the smallest item from the heap
+    item = heap[0]       # smallest item on the heap without popping it
+    heapify(x)           # transforms list into a heap, in-place, in linear time
+    item = heappushpop(heap, item) # pushes a new item and then returns
+                                # the smallest item; the heap size is unchanged
+    item = heapreplace(heap, item) # pops and returns smallest item, and adds
+                                # new item; the heap size is unchanged
+
 # The Shortest Path Problem
 
 A graph is a data structure that connects nodes identified by labels. In a graph, a node is normally called **vertex** and the connections between two vertices is called **edge**. The cost to travel through an edge is its **weight**. Below is an example of a weighted graph with 9 vertices. 

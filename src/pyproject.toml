@@ -3,12 +3,12 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "<your_name>lib"
-version = "0.0.1"
+name = "graphs_colinr135"
+version = "0.0.2"
 authors = [
-  { name="Example Author", email="author@example.com" },
+  { name="Colin Reed", email="creed40@msudenver.edu" },
 ]
-description = "A small example package"
+description = "A package for the Dijkstra algorithm"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
